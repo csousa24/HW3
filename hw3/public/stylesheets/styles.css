@@ -1,0 +1,66 @@
+/* Carolyn Sousa */
+body {
+  background-color: rgba(116, 20, 66, 0.5);
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  color: purple;
+  font-family: 'Georgia', serif;
+  text-align: center;
+}
+
+/* center image and round borders */
+img {
+  display: block;
+  margin: 0 auto 20px;
+  border-radius: 10px;
+}
+
+textarea {
+  width: 70%;
+  padding: 10px;
+}
+
+p {
+  color: white;
+  background-color: purple;
+}
+
+
+h2 {
+  color: white;
+  display: inline-block;
+  padding: 5px 10px;
+  cursor: pointer;
+  background-color: rgba(128, 0, 128, 0.3);
+}
+
+/* Dropdown Menu */
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 10%;
+  background-color: white;
+  border: 1px solid #ccc;
+  list-style-type: none;
+  padding: 5px;
+  width: 120px;
+  max-height: 120px;
+  overflow-y: scroll;
+}
+
+/* Referenced: https://stackoverflow.com/questions/50144220/css-dropdown-menu-on-hover */
+
+.dropdown:hover,
+.dropdown-menu li:hover {
+  background-color: purple;
+  color: white;
+}
+
+ul {
+  color: purple;
+  background-color: white;
+  width: 20%
+}
